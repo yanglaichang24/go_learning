@@ -1,0 +1,28 @@
+
+### POST form
+POST {{host}}/form/post
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+
+--WebAppBoundary
+Content-Disposition: form-data; name="id"
+
+yangID
+--WebAppBoundary--
+
+--WebAppBoundary
+Content-Disposition: form-data; name="name"
+
+yang_name
+--WebAppBoundary--
+
+
+
+###
+#GET
+GET {{host}}/form?id=yang&name=y
+Accept: application/json
+
+
+
+
+
