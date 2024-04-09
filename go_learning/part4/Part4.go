@@ -44,4 +44,18 @@ func main() {
 	build := builder.String()
 	fmt.Println(build)
 
+	// 字符串的比较
+	h := "hello"
+	g := "geohash"
+	fmt.Println(h == g)
+
+	fmt.Println(h > g)
+
+	//strings 工具包
+	contains := strings.Contains("hello", "ddd")
+	fmt.Println(contains)
+
+	split := strings.Split("y_i_i", "_")
+	fmt.Println(split)
+
 }
