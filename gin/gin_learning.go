@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	r := gin.Default()
 	irout := r.GET("/ping", func(c *gin.Context) {
 		c.JSON(http.StatusOK, gin.H{
