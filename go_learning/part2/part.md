@@ -1,3 +1,5 @@
+Go to [ HOME ](../learing-go.md)
+
 # Go 语言数据类型
 
 Go 语言按类别有以下几种数据类型：
@@ -42,3 +44,8 @@ Go 也有基于架构的类型，例如：int、uint 和 uintptr。
 |3|uint|或 64 位|
 |4|int| 与 uint 一样大小|
 |5|uintptr | 无符号整型，用于存放一个指针|
+
+---
+
+PRE [基本语法结构/变量/常量](../part1/part1.md)  
+NEXT >> []()

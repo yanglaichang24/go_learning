@@ -1,5 +1,5 @@
 
-[HOME](../learing-go.md)
+Go to [ HOME ](../learing-go.md)
  <h1> 1. 基本语法结构 </h1>
 
 ---
@@ -331,7 +331,8 @@ const (
     E10 = iota
 )
 
-
-
-
 ```
+
+---
+PRE [HOME](../learing-go.md)    
+NEXT >> [基础数据类型](../part2/part.md)
