@@ -63,8 +63,8 @@ IEEE-754 64位浮点型数|
 
 | 序号 | 类型和描述 |
 |---|---|
-|1|byte    <br> 类似 uint8|
-|2|rune   <br>  类似 int32|
-|3|uint    <br>  或 64 位|
-|4|int      <br> 与 uint 一样大小|
-|5|uintptr  <br> 无符号整型，用于存放一个指针|
+|1|byte    <br><br> 类似 uint8|
+|2|rune   <br><br>  类似 int32|
+|3|uint    <br><br>  或 64 位|
+|4|int      <br><br> 与 uint 一样大小|
+|5|uintptr  <br><br> 无符号整型，用于存放一个指针|
