@@ -335,6 +335,12 @@ func main() {
 
 	// ctx.Value("id")
 
+	//TODO
+	//退出return/exit/goexit
+
+	// os.Exit(-1)
+	// runtime.Goexit()
+
 }
 
 var wg20 sync.WaitGroup
