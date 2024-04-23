@@ -1,4 +1,4 @@
-Go to [ HOME ](../learning-go.md)
+Go [HOME ](../learning-go.md)
 ---
 
 # Go 语言数据类型

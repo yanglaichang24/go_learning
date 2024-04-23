@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"fmt"
-	common "go_pro/go_learning"
+	common "go_learning"
 	"strconv"
 	"sync"
 	"sync/atomic"
@@ -361,7 +361,7 @@ func getCpu(ctx context.Context) {
 
 }
 
-//空的结构体
+// 空的结构体
 var ch = make(chan struct{})
 
 func g1() {

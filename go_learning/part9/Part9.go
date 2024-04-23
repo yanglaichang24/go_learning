@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"go_pro/go_learning/part9/bean"
+	"go_learning/part9/bean"
 	// 别名用处
-	v1 "go_pro/go_learning/part9/bean/v1"
+	v1 "go_learning/part9/bean/v1"
 	//. "go_pro/go_learning/part9/bean/v1" 导入本地，不用写前缀报名，重名可读性差
 	//_ "go_pro/go_learning/part9/bean/v1" 匿名 导入不用，特殊的函数init初始化
 )

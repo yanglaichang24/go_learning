@@ -6,19 +6,15 @@ import (
 )
 
 /*
-  函数
+	  函数
+	    -普通函数
+		-匿名函数
+	    -闭包
 
-   普通函数
-
-    匿名函数
-
-    闭包
-
-  Go函数是"一等公民"
-     1.函数本身可以作为变量
-     2，匿名函数，闭包
-     3.函数可以满足接口
-
+	  Go函数是"一等公民"
+	     1.函数本身可以作为变量
+	     2.匿名函数，闭包
+	     3.函数可以满足接口
 */
 func main() {
 	a := 1
@@ -154,7 +150,7 @@ func unlock() {
 	fmt.Println("unlocking")
 }
 
-//函数值传递
+// 函数值传递
 func add(a int, b int) (int, error) {
 	c := a + b
 	a += 100
@@ -174,12 +170,10 @@ func fun4() {
 
 }
 
-//
 func fun5() (sum int, e error) {
 	return
 }
 
-//
 func fun6(a ...int) (sum int, e error) {
 	for i := 0; i < len(a); i++ {
 		sum += i
@@ -187,7 +181,6 @@ func fun6(a ...int) (sum int, e error) {
 	return sum, e
 }
 
-//
 func add4(a int, b int) (sum int, e error) {
 	sum = a + b
 	a += 100

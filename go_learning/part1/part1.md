@@ -1,5 +1,5 @@
 
-Go to [ HOME ](../learning-go.md)
+Go [HOME ](../learning-go.md)
  <h1> 1. 基本语法结构 </h1>
 
 ---
