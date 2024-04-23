@@ -1,0 +1,9 @@
+
+GET http://localhost:8080/getb?field_a=hello&field_b=world
+###
+GET http://localhost:8080/getc?field_a=hello&field_c=world
+###
+GET http://localhost:8080/getd?field_x=hello&field_d=world
+
+
+
