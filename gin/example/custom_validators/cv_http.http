@@ -1,0 +1,6 @@
+GET http://localhost:8080/bookable?check_in=2118-03-10&check_out=2118-03-09
+Accept: application/json
+
+###
+
+GET http://localhost:8080/bookable?check_in=2118-04-16&check_out=2118-04-17

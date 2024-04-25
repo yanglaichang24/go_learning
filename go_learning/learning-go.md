@@ -60,7 +60,7 @@ Hello, World!
 + [条件判断与循环](part5/part.md)
 + [集合类型](part6/part.md)
 + [函数](part7/part.md)
-+ [结构体](part8/part.md)
++ [结构体/函数](part8/part.md)
 + [包/模块](part9/part.md)
 + [并发编程](part10/part.md)
 + [测试用例](part11/part.md)
