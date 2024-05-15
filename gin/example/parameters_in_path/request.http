@@ -1,0 +1,11 @@
+GET http://localhost:8080/user/john/get
+Accept: application/json
+
+###
+GET http://localhost:8080/user/john/aaction
+Accept: application/json
+
+###
+GET http://localhost:8080/user/john
+
+###

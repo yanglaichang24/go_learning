@@ -1,0 +1,35 @@
+POST http://localhost:8080/loginXML
+Content-Type: application/xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <user>manu</user>
+    <password>123</password>
+ </root>
+
+###
+POST http://localhost:8080/loginForm
+Content-Type: application/x-www-form-urlencoded
+
+user = manu &
+password = 123
+
+###
+POST http://localhost:8080/loginJSON
+Content-Type: application/json
+
+{"user": "xxx", "token": "xxx"}
+
+###
+POST http://localhost:8080/loginJSON
+Content-Type: application/json
+
+{"user": "xxx", "password": "123"}
+
+###
+POST http://localhost:8080/loginJSON
+Content-Type: application/json
+
+{"user": "manu", "password": "123","token": "xxxx"}
+
+###
